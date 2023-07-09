@@ -1,6 +1,6 @@
 <launch>
   <!-- Load the CougarBot URDF model into the parameter server -->
-  <param name="robot_description" textfile="$(find teabot)/ur3_with_gripper.urdf" />
+  <param name="robot_description" textfile="$(find teabot)/ur3.urdf" />
   <!-- Start Gazebo with an empty world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch" />
   <!-- Spawn a CougarBot in Gazebo, taking the description from the
