@@ -307,4 +307,8 @@
   <gazebo reference="ee_link">
     <selfCollide>true</selfCollide>
   </gazebo>
+
+  <gazebo>
+    <plugin name="control" filename="libgazebo_ros_control.so"/>
+  </gazebo>
 </robot>
