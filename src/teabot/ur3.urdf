@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<robot name="ur3_with_gripper">
+<robot name="ur3">
 
   <!-- define the ur5's position and orientation in the world coordinate system -->
   <link name="world" />
