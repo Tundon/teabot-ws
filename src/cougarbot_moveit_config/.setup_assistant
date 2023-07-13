@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: teabot
+    relative_path: cougarbot.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/cougarbot.srdf
+  CONFIG:
+    author_name: Yun Jia
+    author_email: yunjia@me.com
+    generated_timestamp: 1689289534
