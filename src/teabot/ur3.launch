@@ -1,7 +1,7 @@
 <launch>
   <!-- Load the CougarBot URDF model into the parameter server -->
   <param name="robot_description" textfile="$(find teabot)/ur3.urdf" />
-  <rosparam file="$(find teabot)/controllers.yaml" command="load" />
+  <rosparam file="$(find teabot)/ur3-controllers.yaml" command="load" />
 
   <!-- Start Gazebo with an empty world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch" />
